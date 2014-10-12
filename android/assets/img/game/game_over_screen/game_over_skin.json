@@ -1,0 +1,18 @@
+{
+	com.badlogic.gdx.graphics.Color: {
+		black: { r: 0, g: 0, b: 0, a: 1 },
+	},
+
+	com.badlogic.gdx.graphics.g2d.BitmapFont: {
+		default: { file: font/BeyondWonderLand32.fnt },
+	},
+
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default: { up: burningButton2, down: burningButton2, font: default, fontColor: black,  pressedOffsetX: 1, pressedOffsetY: -1 },
+	},
+
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: { font: default},
+	},	
+	
+}

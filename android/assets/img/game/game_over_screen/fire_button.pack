@@ -1,0 +1,11 @@
+fire_button.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+burningButton2
+  rotate: false
+  xy: 2, 2
+  size: 320, 141
+  orig: 320, 141
+  offset: 0, 0
+  index: -1

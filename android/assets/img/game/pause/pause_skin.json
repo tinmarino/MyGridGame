@@ -1,0 +1,23 @@
+{
+	com.badlogic.gdx.graphics.Color: {
+		blue    : { r: 0.56,  g: 0.81,  b: 0.87,  a: 0.5 },
+		green   : { r: 0.18,  g: 0.37,  b: 0.20,  a: 0.5 },
+	},
+	com.badlogic.gdx.graphics.g2d.BitmapFont: {
+		default : { file: font/Flame32.fnt },
+	},
+
+        com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+                drawBlue : { name: Circle16 , color: blue  },
+                drawGreen: { name: Circle16 , color: green },
+        },
+
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default : { up: drawBlue , down: drawBlue , font: default,  pressedOffsetX: 1, pressedOffsetY: -1 },
+		green   : { up: drawGreen, down: drawGreen, font: default,  pressedOffsetX: 1, pressedOffsetY: -1 },
+	},
+	
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	    default: { font : default },
+	},
+}

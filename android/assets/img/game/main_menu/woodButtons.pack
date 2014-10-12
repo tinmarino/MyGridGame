@@ -1,0 +1,32 @@
+woodButtons.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+wood1
+  rotate: false
+  xy: 2, 2
+  size: 313, 79
+  orig: 313, 79
+  offset: 0, 0
+  index: -1
+wood3
+  rotate: false
+  xy: 2, 83
+  size: 307, 67
+  orig: 307, 67
+  offset: 0, 0
+  index: -1
+wood2
+  rotate: false
+  xy: 2, 152
+  size: 281, 79
+  orig: 281, 79
+  offset: 0, 0
+  index: -1
+wood4
+  rotate: false
+  xy: 2, 233
+  size: 258, 55
+  orig: 258, 55
+  offset: 0, 0
+  index: -1

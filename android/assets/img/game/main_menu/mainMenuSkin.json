@@ -1,0 +1,14 @@
+{
+	com.badlogic.gdx.graphics.g2d.BitmapFont: {
+		default: { file: font/Flame32.fnt },
+	},
+
+
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default: { up: wood1, down: wood1, font: default, pressedOffsetX: 1, pressedOffsetY: -1 },
+		wood1: { up: wood1, down: wood1, font: default, pressedOffsetX: 1, pressedOffsetY: -1 },
+		wood2: { up: wood2, down: wood2, font: default, pressedOffsetX: 1, pressedOffsetY: -1 },
+		wood3: { up: wood3, down: wood3, font: default, pressedOffsetX: 1, pressedOffsetY: -1 },
+		wood4: { up: wood4, down: wood4, font: default, pressedOffsetX: 1, pressedOffsetY: -1 },
+	}
+}

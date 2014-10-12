@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="android/build/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="android/build/source/r/debug"/>
+	<classpathentry kind="src" path="android/src"/>
+	<classpathentry excluding="com/mygdx/game/utils/Classes/" kind="src" path="core/src"/>
+	<classpathentry kind="src" path="core/src/com/mygdx/game/utils/Classes"/>
+	<classpathentry kind="src" path="desktop/src"/>
+	<classpathentry kind="src" path="html/build/gwt/gen"/>
+	<classpathentry kind="src" path="html/src"/>
+	<classpathentry kind="src" path="ios/src"/>
+	<classpathentry kind="lib" path="android/build/pre-dexed/debug/core-1.0-dbb73b5c977dab92d41cccb7bf66b2b21ac035f4.jar"/>
+	<classpathentry kind="lib" path="android/build/pre-dexed/debug/gdx-1.1.0-8d5db2094f1c38a28754f3e32a3192222f5a11b5.jar"/>
+	<classpathentry kind="lib" path="android/build/pre-dexed/debug/gdx-backend-android-1.1.0-7407b2f089e0c0be0beeab3ac052a8a04fdf56ec.jar"/>
+	<classpathentry kind="lib" path="android/build/pre-dexed/debug/gdx-box2d-1.1.0-4c4dea26df615beeb023436f4974e8919fa71faf.jar"/>
+	<classpathentry kind="lib" path="core/build/libs/core-1.0.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/core-1.0.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gdx-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gdx-1.1.0.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gdx-backend-gwt-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gdx-backend-gwt-1.1.0.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gdx-box2d-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gdx-box2d-1.1.0.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gdx-box2d-gwt-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gwt-servlet-2.6.0.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/gwt-user-2.6.0.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/json-20090211.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="lib" path="html/build/dist/WEB-INF/lib/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/core-1.0.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gdx-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gdx-1.1.0.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gdx-backend-gwt-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gdx-backend-gwt-1.1.0.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gdx-box2d-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gdx-box2d-1.1.0.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gdx-box2d-gwt-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gwt-servlet-2.6.0.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/gwt-user-2.6.0.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/json-20090211.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="lib" path="html/war/WEB-INF/lib/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="html/war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,41 @@
+
+Setting.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Slider
+  rotate: false
+  xy: 1, 4
+  size: 16, 36
+  orig: 16, 36
+  offset: 0, 0
+  index: -1
+checkOff
+  rotate: false
+  xy: 19, 20
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+checkOn
+  rotate: false
+  xy: 41, 20
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+Circle16
+  rotate: false
+  xy: 19, 2
+  size: 16, 16
+  split: 7, 7, 7, 7
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Pixel
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

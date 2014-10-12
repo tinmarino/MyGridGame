@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+
+
+	<classpathentry kind="lib" path="/home2/tourneboeuf/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.1.0/be72ba2987612670c7e9533bdaaa999955752237/gdx-backend-android-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home2/tourneboeuf/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.1.0/eafa409559820c1696e165e1280435f1332fc32b/gdx-backend-lwjgl-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home2/tourneboeuf/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.1.0/919bff3c5e92062ee3413f86076c089bd810b5b3/gdx-box2d-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home2/tourneboeuf/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.1.0/686f5a609c717eb0769d3b954c501a49bf4fe351/gdx-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home2/tourneboeuf/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-gwt/1.1.0/3d16061a9738adf69f254fb7ef2ce14eab048aa2/gdx-backend-gwt-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home2/tourneboeuf/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-gwt/1.1.0/cd776c9605e683a4f075610bfe5956cfc6b10d62/gdx-backend-gwt-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home2/tourneboeuf/Software/Java/adt-bundle-linux-x86-20131030/sdk/platforms/android-19/android.jar"/>
+
+
+</classpath>
