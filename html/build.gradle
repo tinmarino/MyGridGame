@@ -1,6 +1,11 @@
 apply plugin: "java"
 apply plugin: "jetty"
 
+task copy(type: Copy) {
+    from "$buildDir/dist"
+    into "${System.properties['user.home']}/Software/Html/App/my_grid_game"
+}
+
 gwt {
     gwtVersion='2.6.0' // Should match the gwt version used for building the gwt backend
     maxHeapSize="1G" // Default 256m is not enough for gwt compiler. GWT is HUNGRY
