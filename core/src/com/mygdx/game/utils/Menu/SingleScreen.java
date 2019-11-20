@@ -10,7 +10,7 @@ import com.mygdx.game.utils.Global.Global;
 
 
 public class SingleScreen implements Screen {
-        public WindowScreen window; 
+       public WindowScreen window; 
 	public WindowScreen lastWindow; 
 	public Instance     instance = Instance.SINGLE; 
 

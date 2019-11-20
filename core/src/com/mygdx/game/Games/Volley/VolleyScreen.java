@@ -135,31 +135,31 @@ public class VolleyScreen extends GameScreen implements ContactFilter,TouchActio
 		// body definition
 		BodyDef ballDef = new BodyDef();
 		ballDef.type = BodyType.DynamicBody;
-        //ballDef.position.set((downLeft.x+downRight.x)/2,(downLeft.y+upLeft.y)/2); // middle
-                ballDef.position.set(wwidth/2,wheight/2); // middle
-		
-	// BodyShape 
+		//ballDef.position.set((downLeft.x+downRight.x)/2,(downLeft.y+upLeft.y)/2); // middle
+		ballDef.position.set(wwidth/2,wheight/2); // middle
+
+		// BodyShape 
 		CircleShape ballShape = new CircleShape();
 		ballShape.setRadius(wwidth/10f);
 
-	// BodyFixture 
+		// BodyFixture 
 		FixtureDef ballFix = new FixtureDef();
 		ballFix.shape = ballShape;
 		ballFix.restitution = 1;
 		ballFix.friction = 0;
-		
-	// Create Body 
+
+		// Create Body 
 		ballBody = world.createBody(ballDef);
 		ballBody.createFixture(ballFix);
-		
-	// Add Body Sprite 
+
+		// Add Body Sprite 
 		Sprite ballSprite = new Sprite(lvl.ballTexture);
 		ballSprite.setSize( (int) (2*ballShape.getRadius())  , 
-				            (int) (2*ballShape.getRadius())  ); // metros el radio
+				(int) (2*ballShape.getRadius())  ); // metros el radio
 		ballSprite.setOrigin(ballSprite.getWidth()/2, ballSprite.getHeight()/2); // to resize and rotate around the origin, here center of the sprite
 		ballBody.setUserData(ballSprite); 
-		
-	// give velocity 	
+
+		// give velocity 	
 		ballBody.setLinearVelocity(new Vector2(0,wheight/2));
 	}
 		
