@@ -1,5 +1,5 @@
 /*
-    Just render in HUD matrix screen
+    Window multiplexer: just render in HUD matrix screen
 */
 package com.mygdx.game;
 
@@ -23,9 +23,9 @@ public class WindowScreen implements Screen {
     public Instance instance = Instance.WINDOW; 
     public enum Place   {LEFT,RIGHT}
     public enum Instance{WINDOW,GAME}
+    public Matrix4 HUDMatrix; 
 
     // DEBUG 
-    public Matrix4 HUDMatrix; 
     public BitmapFont red32; 
     public SpriteBatch debugBatch; 
     public float numberOfRender=0, averageDelta=0, OneSec=0; 
@@ -75,7 +75,13 @@ public class WindowScreen implements Screen {
     }
 
 
-     public void debugRender(float delta){
+
+    public void debugRender(float delta){
+        // Init if not already done
+        if (null == debugBatch) {
+            debugShow();
+        }
+
         numberOfRender +=1; 
         OneSec +=delta;
         if (OneSec>1){
@@ -86,12 +92,10 @@ public class WindowScreen implements Screen {
         debugBatch.begin(); 
         // FPS 
         red32.draw(debugBatch, "FPS: " + Integer.toString((int) averageDelta), 0.05f*wwidth, 0.05f*wheight );
-        
+
         // MEMORY 
         red32.draw(debugBatch, "MEM: " + Float.toString(Gdx.app.getJavaHeap()/1000), 0.05f*wwidth, 0.15f*wheight );
         debugBatch.end(); 
-
-
      }
 
     public void debugdispose(){
